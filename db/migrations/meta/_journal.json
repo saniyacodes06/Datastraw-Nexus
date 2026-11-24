@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795466788164,
+      "tag": "0000_peaceful_omega_flight",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795467436085,
+      "tag": "0001_roster_coverage",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795468254156,
+      "tag": "0002_leave_batch_roster_changes",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795468626885,
+      "tag": "0003_notifications_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795514157349,
+      "tag": "0004_auth_and_locks",
+      "breakpoints": true
+    }
+  ]
+}

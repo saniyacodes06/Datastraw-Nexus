@@ -1,0 +1,1 @@
+ALTER TABLE "rosters" ADD COLUMN "coverage" jsonb DEFAULT '{}'::jsonb NOT NULL;
