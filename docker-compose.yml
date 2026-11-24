@@ -1,0 +1,21 @@
+# Run the whole app with one command:  docker compose up --build
+# Secrets come from .env.local at run time; nothing secret is baked into the images.
+services:
+  engine:
+    build: ./engine
+    environment:
+      ENGINE_KEY: ${ENGINE_KEY:-}
+    # No "ports:" on purpose: only the web container talks to the engine, over the internal network.
+
+  web:
+    build: .
+    ports:
+      - "3100:3000"          # laptop:container (3000 is often taken by `npm run dev`)
+    env_file: .env.local     # DATABASE_URL, AUTH_SECRET, GEMINI_API_KEY ...
+    environment:
+      ENGINE_URL: http://engine:8000   # service name = hostname inside the compose network
+      ENGINE_KEY: ${ENGINE_KEY:-}
+      # Local demo only. In production set a real MANAGER_PASSWORD (the app refuses to sign in without it).
+      MANAGER_PASSWORD: ${MANAGER_PASSWORD:-demo1234}
+    depends_on:
+      - engine

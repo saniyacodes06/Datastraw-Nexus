@@ -1,0 +1,12 @@
+# Keep the build context small and free of secrets / machine-specific files.
+node_modules
+.next
+.git
+.env*
+engine
+docs
+scripts
+*.pdf
+*.png
+!public/**
+README.md

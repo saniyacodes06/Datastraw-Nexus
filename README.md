@@ -53,12 +53,12 @@ It solves the scheduling problem itself: it is not a calendar or a digitised spr
 
 ```mermaid
 flowchart LR
-    A[Manager configures<br/>brands, processes,<br/>people, leaves] --> B[(PostgreSQL)]
-    B --> C[Next.js app]
-    C -- month data --> D[Python engine<br/>OR-Tools CP-SAT]
-    D -- roster + conflicts<br/>+ coverage --> C
-    C --> E[Draft version]
-    E -- manager reviews<br/>and publishes --> F[Published roster<br/>+ notifications]
+    A["Manager configures brands, processes, people and leaves"] --> B[("PostgreSQL")]
+    B --> C["Next.js web app"]
+    C -->|"month data"| D["Python engine: OR-Tools CP-SAT"]
+    D -->|"roster, conflicts, coverage"| C
+    C --> E["Draft version"]
+    E -->|"manager reviews and publishes"| F["Published roster and notifications"]
 ```
 
 1. **Configure:** pods, employees, brands, processes, calendars, minimum staff, assignments (primary or backup), holidays and leaves. All of it is editable in the app; no code changes needed.

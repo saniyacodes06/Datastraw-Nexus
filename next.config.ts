@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Docker: build a self-contained server (.next/standalone) instead of needing all of node_modules.
+  output: "standalone",
   experimental: {
     agentFeedback: true,
   },
