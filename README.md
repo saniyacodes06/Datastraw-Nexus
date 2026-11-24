@@ -6,11 +6,22 @@
 
 Generate, validate and publish rosters across brands, processes and pods, with clear conflict detection and minimal-change re-planning when plans change.
 
+**[Live app](https://datastraw-nexus-469b.vercel.app)** · **[Engine API](https://datastraw-nexus-engine.onrender.com/health)** · Demo login: `manager@datastraw.demo` / `demo1234`
+
 ![DataStraw Nexus landing page](docs/screenshots/landing.png)
 
 </div>
 
 ---
+
+## Live links
+
+| | URL |
+|---|---|
+| **Web app** (Next.js on Vercel) | https://datastraw-nexus-469b.vercel.app |
+| **Scheduling engine** (FastAPI + OR-Tools on Render) | https://datastraw-nexus-engine.onrender.com ([health check](https://datastraw-nexus-engine.onrender.com/health)) |
+
+> The engine runs on Render's free tier, which sleeps after 15 minutes idle. The first **Generate** after a pause can take up to a minute; if it times out, refresh and try again. The engine is an API, so its root URL shows `Not Found`; use `/health` to check it.
 
 ## What is this?
 
@@ -224,11 +235,12 @@ The model itself scales: about 60 people and 40 brands is still small for CP-SAT
 
 ## Roadmap
 
-- [ ] Public deployment (web app + engine)
+- [x] Public deployment (web app on Vercel, engine on Render)
 - [ ] Shift-level scheduling
 - [ ] Alternative plan comparison
 - [ ] Pod-lead approvals
-- [ ] Docker setup and CI
+- [x] Docker setup (`docker compose up --build`)
+- [ ] CI
 
 ---
 
