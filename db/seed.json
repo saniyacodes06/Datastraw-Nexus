@@ -1,0 +1,1192 @@
+{
+ "year": 2026,
+ "month": 12,
+ "pods": [
+  {
+   "id": "alpha",
+   "name": "Pod Alpha",
+   "lead": "E01"
+  },
+  {
+   "id": "bravo",
+   "name": "Pod Bravo",
+   "lead": "E02"
+  },
+  {
+   "id": "celeste",
+   "name": "Pod Celeste",
+   "lead": "E03"
+  },
+  {
+   "id": "delta",
+   "name": "Pod Delta",
+   "lead": "E04"
+  }
+ ],
+ "employees": [
+  {
+   "id": "E01",
+   "name": "Neha Kapoor",
+   "email": "neha.kapoor@datastraw.demo",
+   "pod": "alpha",
+   "role": "Pod Lead",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 2
+  },
+  {
+   "id": "E02",
+   "name": "Arjun Mehta",
+   "email": "arjun.mehta@datastraw.demo",
+   "pod": "bravo",
+   "role": "Pod Lead",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 2
+  },
+  {
+   "id": "E03",
+   "name": "Farah Khan",
+   "email": "farah.khan@datastraw.demo",
+   "pod": "celeste",
+   "role": "Pod Lead",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 2
+  },
+  {
+   "id": "E04",
+   "name": "Vikram Rao",
+   "email": "vikram.rao@datastraw.demo",
+   "pod": "delta",
+   "role": "Pod Lead",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 2
+  },
+  {
+   "id": "E05",
+   "name": "Riya Sharma",
+   "email": "riya.sharma@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E06",
+   "name": "Aman Verma",
+   "email": "aman.verma@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 5,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E07",
+   "name": "Pooja Iyer",
+   "email": "pooja.iyer@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E08",
+   "name": "Rohan Das",
+   "email": "rohan.das@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E09",
+   "name": "Sneha Patil",
+   "email": "sneha.patil@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 2,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E10",
+   "name": "Karan Malhotra",
+   "email": "karan.malhotra@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E11",
+   "name": "Ishita Roy",
+   "email": "ishita.roy@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 4,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E12",
+   "name": "Dev Nair",
+   "email": "dev.nair@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E13",
+   "name": "Ananya Joshi",
+   "email": "ananya.joshi@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E14",
+   "name": "Yash Kulkarni",
+   "email": "yash.kulkarni@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": 0,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E15",
+   "name": "Meera Pillai",
+   "email": "meera.pillai@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E16",
+   "name": "Siddharth Rao",
+   "email": "siddharth.rao@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": 1,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E17",
+   "name": "Tanvi Shah",
+   "email": "tanvi.shah@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E18",
+   "name": "Nikhil Bose",
+   "email": "nikhil.bose@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E19",
+   "name": "Divya Menon",
+   "email": "divya.menon@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": 3,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E20",
+   "name": "Harsh Gupta",
+   "email": "harsh.gupta@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": 5,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E21",
+   "name": "Zoya Ali",
+   "email": "zoya.ali@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E22",
+   "name": "Kabir Singh",
+   "email": "kabir.singh@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E23",
+   "name": "Lavanya Reddy",
+   "email": "lavanya.reddy@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": 5,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E24",
+   "name": "Manav Chawla",
+   "email": "manav.chawla@datastraw.demo",
+   "pod": "alpha",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E25",
+   "name": "Nisha Agarwal",
+   "email": "nisha.agarwal@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E26",
+   "name": "Omkar Jain",
+   "email": "omkar.jain@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 2,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E27",
+   "name": "Priya Saxena",
+   "email": "priya.saxena@datastraw.demo",
+   "pod": "bravo",
+   "role": "Executive",
+   "preferred_off": 4,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E28",
+   "name": "Rahul Khanna",
+   "email": "rahul.khanna@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E29",
+   "name": "Simran Kaur",
+   "email": "simran.kaur@datastraw.demo",
+   "pod": "celeste",
+   "role": "Executive",
+   "preferred_off": 0,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E30",
+   "name": "Tushar Pandey",
+   "email": "tushar.pandey@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": 6,
+   "max_consecutive": 6,
+   "max_backup": 1
+  },
+  {
+   "id": "E31",
+   "name": "Uma Krishnan",
+   "email": "uma.krishnan@datastraw.demo",
+   "pod": "delta",
+   "role": "Executive",
+   "preferred_off": null,
+   "max_consecutive": 6,
+   "max_backup": 1
+  }
+ ],
+ "brand_processes": [
+  {
+   "id": "bloombotanics-cs",
+   "brand": "Bloom Botanics",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "bloombotanics-acc",
+   "brand": "Bloom Botanics",
+   "process": "ACC",
+   "pod": "alpha",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "chaiculture-cs",
+   "brand": "Chai Culture",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "desidenim-cs",
+   "brand": "Desi Denim",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "desidenim-ndr",
+   "brand": "Desi Denim",
+   "process": "NDR",
+   "pod": "alpha",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "ecoware-cs",
+   "brand": "Ecoware",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "fablefootwear-cs",
+   "brand": "Fable Footwear",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "fablefootwear-acc",
+   "brand": "Fable Footwear",
+   "process": "ACC",
+   "pod": "alpha",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "fablefootwear-ret",
+   "brand": "Fable Footwear",
+   "process": "RET",
+   "pod": "alpha",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "glamstreet-cs",
+   "brand": "Glamstreet",
+   "process": "CS",
+   "pod": "bravo",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "glamstreet-acc",
+   "brand": "Glamstreet",
+   "process": "ACC",
+   "pod": "bravo",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "herbnest-cs",
+   "brand": "Herbnest",
+   "process": "CS",
+   "pod": "bravo",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "inkpotstationery-cs",
+   "brand": "Inkpot Stationery",
+   "process": "CS",
+   "pod": "bravo",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "jhumkajunction-cs",
+   "brand": "Jhumka Junction",
+   "process": "CS",
+   "pod": "bravo",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "jhumkajunction-ndr",
+   "brand": "Jhumka Junction",
+   "process": "NDR",
+   "pod": "bravo",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "kriyayogawear-cs",
+   "brand": "Kriya Yogawear",
+   "process": "CS",
+   "pod": "celeste",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "loomlane-cs",
+   "brand": "Loom Lane",
+   "process": "CS",
+   "pod": "celeste",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "loomlane-acc",
+   "brand": "Loom Lane",
+   "process": "ACC",
+   "pod": "celeste",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "masalabox-cs",
+   "brand": "Masala Box",
+   "process": "CS",
+   "pod": "celeste",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "masalabox-ndr",
+   "brand": "Masala Box",
+   "process": "NDR",
+   "pod": "celeste",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "nimbunaturals-cs",
+   "brand": "Nimbu Naturals",
+   "process": "CS",
+   "pod": "celeste",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "orbitgadgets-cs",
+   "brand": "Orbit Gadgets",
+   "process": "CS",
+   "pod": "delta",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "orbitgadgets-ret",
+   "brand": "Orbit Gadgets",
+   "process": "RET",
+   "pod": "delta",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "quillbooks-cs",
+   "brand": "Quill Books",
+   "process": "CS",
+   "pod": "delta",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "rangolihome-cs",
+   "brand": "Rangoli Home",
+   "process": "CS",
+   "pod": "delta",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "kesarkitchen-cs",
+   "brand": "Kesar Kitchen",
+   "process": "CS",
+   "pod": "delta",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "urbankurta-cs",
+   "brand": "Urban Kurta",
+   "process": "CS",
+   "pod": "alpha",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "urbankurta-acc",
+   "brand": "Urban Kurta",
+   "process": "ACC",
+   "pod": "alpha",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "urbankurta-ndr",
+   "brand": "Urban Kurta",
+   "process": "NDR",
+   "pod": "alpha",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "glowleaf-cs",
+   "brand": "GlowLeaf",
+   "process": "CS",
+   "pod": "bravo",
+   "calendar": "365_DAYS",
+   "min_staff": 2,
+   "min_by_weekday": {
+    "6": 1
+   }
+  },
+  {
+   "id": "glowleaf-acc",
+   "brand": "GlowLeaf",
+   "process": "ACC",
+   "pod": "bravo",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "fitfuel-cs",
+   "brand": "FitFuel",
+   "process": "CS",
+   "pod": "celeste",
+   "calendar": "NO_PUBLIC_HOLIDAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "fitfuel-ret",
+   "brand": "FitFuel",
+   "process": "RET",
+   "pod": "celeste",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "petpals-cs",
+   "brand": "PetPals",
+   "process": "CS",
+   "pod": "delta",
+   "calendar": "365_DAYS",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  },
+  {
+   "id": "petpals-ndr",
+   "brand": "PetPals",
+   "process": "NDR",
+   "pod": "delta",
+   "calendar": "NO_SUN_NO_PH",
+   "min_staff": 1,
+   "min_by_weekday": {}
+  }
+ ],
+ "assignments": [
+  {
+   "employee": "E05",
+   "bp": "bloombotanics-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E05",
+   "bp": "bloombotanics-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E06",
+   "bp": "chaiculture-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E07",
+   "bp": "desidenim-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E07",
+   "bp": "desidenim-ndr",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E08",
+   "bp": "ecoware-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E09",
+   "bp": "fablefootwear-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E09",
+   "bp": "fablefootwear-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E09",
+   "bp": "fablefootwear-ret",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E10",
+   "bp": "glamstreet-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E10",
+   "bp": "glamstreet-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E11",
+   "bp": "herbnest-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E12",
+   "bp": "inkpotstationery-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E13",
+   "bp": "jhumkajunction-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E13",
+   "bp": "jhumkajunction-ndr",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E14",
+   "bp": "kriyayogawear-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E15",
+   "bp": "loomlane-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E15",
+   "bp": "loomlane-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E16",
+   "bp": "masalabox-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E16",
+   "bp": "masalabox-ndr",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E17",
+   "bp": "nimbunaturals-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E18",
+   "bp": "orbitgadgets-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E18",
+   "bp": "orbitgadgets-ret",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E19",
+   "bp": "quillbooks-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E20",
+   "bp": "rangolihome-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E21",
+   "bp": "kesarkitchen-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E22",
+   "bp": "urbankurta-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E23",
+   "bp": "urbankurta-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E23",
+   "bp": "urbankurta-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E24",
+   "bp": "urbankurta-ndr",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E01",
+   "bp": "urbankurta-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "urbankurta-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "urbankurta-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E25",
+   "bp": "glowleaf-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E25",
+   "bp": "glowleaf-acc",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E26",
+   "bp": "glowleaf-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E27",
+   "bp": "glowleaf-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E02",
+   "bp": "glowleaf-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "glowleaf-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E28",
+   "bp": "fitfuel-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E28",
+   "bp": "fitfuel-ret",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E29",
+   "bp": "fitfuel-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E03",
+   "bp": "fitfuel-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "fitfuel-ret",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E30",
+   "bp": "petpals-cs",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E31",
+   "bp": "petpals-ndr",
+   "role": "PRIMARY"
+  },
+  {
+   "employee": "E31",
+   "bp": "petpals-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "petpals-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "petpals-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E06",
+   "bp": "bloombotanics-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "bloombotanics-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E06",
+   "bp": "bloombotanics-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "bloombotanics-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E07",
+   "bp": "chaiculture-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "chaiculture-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E08",
+   "bp": "desidenim-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "desidenim-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E08",
+   "bp": "desidenim-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "desidenim-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E09",
+   "bp": "ecoware-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "ecoware-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E05",
+   "bp": "fablefootwear-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "fablefootwear-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E05",
+   "bp": "fablefootwear-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "fablefootwear-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E05",
+   "bp": "fablefootwear-ret",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E01",
+   "bp": "fablefootwear-ret",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E11",
+   "bp": "glamstreet-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "glamstreet-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E11",
+   "bp": "glamstreet-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "glamstreet-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E12",
+   "bp": "herbnest-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "herbnest-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E13",
+   "bp": "inkpotstationery-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "inkpotstationery-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E10",
+   "bp": "jhumkajunction-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "jhumkajunction-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E10",
+   "bp": "jhumkajunction-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E02",
+   "bp": "jhumkajunction-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E15",
+   "bp": "kriyayogawear-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "kriyayogawear-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E16",
+   "bp": "loomlane-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "loomlane-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E16",
+   "bp": "loomlane-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "loomlane-acc",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E17",
+   "bp": "masalabox-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "masalabox-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E17",
+   "bp": "masalabox-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "masalabox-ndr",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E14",
+   "bp": "nimbunaturals-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E03",
+   "bp": "nimbunaturals-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E19",
+   "bp": "orbitgadgets-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "orbitgadgets-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E19",
+   "bp": "orbitgadgets-ret",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "orbitgadgets-ret",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E20",
+   "bp": "quillbooks-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "quillbooks-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E18",
+   "bp": "rangolihome-cs",
+   "role": "BACKUP"
+  },
+  {
+   "employee": "E04",
+   "bp": "rangolihome-cs",
+   "role": "BACKUP"
+  }
+ ],
+ "holidays": [
+  "2026-12-25",
+  "2027-01-01",
+  "2027-01-26"
+ ],
+ "holiday_names": {
+  "2026-12-25": "Christmas",
+  "2027-01-01": "New Year",
+  "2027-01-26": "Republic Day"
+ },
+ "leaves": [
+  {
+   "employee": "E05",
+   "date": "2026-12-15",
+   "type": "LEAVE"
+  },
+  {
+   "employee": "E05",
+   "date": "2026-12-16",
+   "type": "LEAVE"
+  },
+  {
+   "employee": "E26",
+   "date": "2026-12-22",
+   "type": "LEAVE"
+  },
+  {
+   "employee": "E11",
+   "date": "2026-12-09",
+   "type": "COMP_OFF"
+  },
+  {
+   "employee": "E21",
+   "date": "2026-12-10",
+   "type": "LEAVE"
+  }
+ ],
+ "prev_tail": {}
+}
