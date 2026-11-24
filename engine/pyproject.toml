@@ -1,0 +1,12 @@
+[project]
+name = "datastraw-roster-engine"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["ortools>=9.15", "fastapi>=0.115", "uvicorn>=0.32"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
